@@ -43,10 +43,6 @@ import time
 
 symbol_13 = "BTCUSDT"
 symbol_45 = "BTC-USDT"
-symbol = symbol_45
-
-### interval "BingX": (min), (H), (D), (W), (M)
-interval = "1min"
 
 ### Exchanges: "Wallex", "Nobitex", "Binance", "Coinbase", "BingX"
 exchange1 = "Wallex"
@@ -54,6 +50,12 @@ exchange2 = "Nobitex"
 exchange3 = "Binance"
 exchange4 = "Coinbase"
 exchange5 = "BingX"
+
+### symbol : symbol format for exchanger
+symbol = symbol_45
+### interval "BingX": (min), (H), (D), (W), (M)
+interval = "1min"
+### exchange : "Wallex", "Nobitex", "Binance", "Coinbase", "BingX"
 exchange = exchange5
 
 num_candles = 10000
