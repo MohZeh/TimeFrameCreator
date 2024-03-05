@@ -25,8 +25,9 @@ The LoggerManager class provides functionalities to manage logging operations wi
 **3. log_error(message: str):**
 
   Logs an error message.
-  Parameters:
-      message (str): Error message to be logged.
+  
+  **Parameters:**
+  - message (str): Error message to be logged.
   
   **Usage Example:**
   ```python
@@ -37,11 +38,10 @@ The LoggerManager class provides functionalities to manage logging operations wi
 
 Logs a debug message.
 
-Parameters:
-
-    message (str): Debug message to be logged.
-    *args: Additional positional arguments.
-    **kwargs: Additional keyword arguments.
+**Parameters:**
+  - message (str): Debug message to be logged.
+  - *args: Additional positional arguments.
+  - **kwargs: Additional keyword arguments.
 
 **Usage Example:**
   ```python
