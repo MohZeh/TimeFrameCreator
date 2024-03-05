@@ -5,9 +5,7 @@
 
 ## متدها:
 
-**۱. متد __init__**
-
-**__init__(log_directory: str = LOG_DIRECTORY, log_file_name: str = LOG_FILE_NAME, log_level: int = logging.DEBUG):**
+**۱. متد init__(log_directory: str = LOG_DIRECTORY, log_file_name: str = LOG_FILE_NAME, log_level: int = logging.DEBUG)__:**
 
   این متد نمونه LoggerManager را با پارامترهای اختیاری برای دایرکتوری ثبت، نام فایل ثبت و سطح ثبت اولیه مقداردهی می‌کند.
   
@@ -28,7 +26,8 @@
 
   یک پیام خطا را ثبت می‌کند.
   
-  پارامترها: (message (str): Error message to be logged)
+  **پارامترها:**
+  - (message (str): Error message to be logged)
   
   **مثال استفاده:**
   ```python
@@ -39,11 +38,10 @@
 
 یک پیام دیباگ را ثبت می‌کند.
 
-Parameters:
-
-    message (str): Debug message to be logged.
-    *args: Additional positional arguments.
-    **kwargs: Additional keyword arguments.
+  **پارامترها:**
+  - message (str): Debug message to be logged.
+  - *args: Additional positional arguments.
+  - **kwargs: Additional keyword arguments.
     
 **مثال استفاده:**
   ```python
