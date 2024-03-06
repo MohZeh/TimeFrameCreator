@@ -5,7 +5,7 @@
 ### Overview
 The `ExchangeAPI` class is designed to interact with various Exchange APIs for retrieving market history data. This class provides a convenient interface to make HTTP requests to Exchange APIs and retrieve historical market data.
 
-## Methods
+### Methods
 
 **`make_request(url: str, params: dict = None) -> dict`**
 
@@ -41,7 +41,7 @@ Retrieves market history data for a specific symbol and time range from the spec
 **Returns:**
 - `dict`: A dictionary containing market history data.
 
-### Example Usage
+## Example Usage
 
 ```python
 from exchange_api import HistoryOHLCV
