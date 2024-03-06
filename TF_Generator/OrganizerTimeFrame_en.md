@@ -1,4 +1,4 @@
-# Documentation & Guide (TimeFrameOrg)
+# Documentation & Guide (OrganizerTimeFrame)
 
 ### Overview
 The `TimeFrameOrg` class provides functionalities for organizing and converting OHLCV (Open, High, Low, Close, Volume) DataFrame to a new timeframe. It offers methods to calculate time unit, check conversion feasibility, and perform the actual conversion.
