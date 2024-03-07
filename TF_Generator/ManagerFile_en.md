@@ -1,4 +1,4 @@
-## Documentation & Guide (ManagerFile)
+# Documentation & Guide (ManagerFile)
 
 ### Overview
 The `FileManager` class facilitates the management of OHLCV (Open, High, Low, Close, Volume) DataFrame files, including saving and reading operations. It provides methods to save OHLCV DataFrames to CSV files and read existing OHLCV DataFrames from CSV files.
@@ -73,4 +73,4 @@ existing_ohlcv_df = file_manager._read_df_ohlcv("ohlcv_data")
 print(existing_ohlcv_df)
 ```
 
-This guide provides a clear understanding of how to use each method of the FileManager class, enabling users to efficiently manage OHLCV DataFrame files.
+This guide provides a clear understanding of how to use each method of the `FileManager` class, enabling users to efficiently manage OHLCV DataFrame files.
