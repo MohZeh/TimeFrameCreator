@@ -1,9 +1,9 @@
 # TimeManager Class Documentation & Guide (ManagerTime)
 
-## Overview
+### Overview
 The `TimeManager` class is designed to facilitate time-related calculations based on the provided timeframe and number of candles. It offers methods to initialize the class, configure time-related parameters, and perform various time-related computations.
 
-## General Explanation
+### General Explanation
 The `TimeManager` class manages time-related calculations for financial data analysis, particularly in the context of trading. It allows users to work with different timeframes and candlestick intervals efficiently.
 
 ## Methods
